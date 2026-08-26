@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nome": "Calça Jeans Wide Leg",
+        "preco": 120.00,
+        "categoria": "calcas",
+        "descricao": "Um calça linda para uma festa"
+    },
+
+    {
+        "id": 2,
+        "nome": "Short Jeans Cintura Alta",
+        "preco": 80.00,
+        "categoria": "shorts",
+        "descricao": "Um short jeans que veste super bem"
+    },
+
+    {
+        "id": 3,
+        "nome": "Blusa Rosa",
+        "preco": 50.00,
+        "categoria": "blusas",
+        "descricao": "Uma blusa rosa com um decote pequeno"
+    },
+
+    {
+        "id": 4,
+        "nome": "Vestido de Alça Curto",
+        "preco": 70.00,
+        "categoria": "vestidos",
+        "descricao": "Um vestido curto de alça para passeio"
+    },
+
+    {
+        "id": 5,
+        "nome": "Vestido Longo",
+        "preco": 80.00,
+        "categoria": "vestidos",
+        "descricao": "Um lindo vestido longo para o dia a dia"
+    },
+
+    {
+        "id": 6,
+        "nome": "Calça Moletom",
+        "preco": 90.00,
+        "categoria": "calcas",
+        "descricao": "Uma calça para se sentir confortável"
+    },
+
+    {
+        "id": 7,
+        "nome": "Blusa de Academia",
+        "preco": 40.00,
+        "categoria": "blusas",
+        "descricao": "Uma blusa para treinar confortável"
+    },
+
+    {
+        "id": 8,
+        "nome": "Short de Academia",
+        "preco": 60.00,
+        "categoria": "shorts",
+        "descricao": "Um short para treinar confortável"
+    }
+]
