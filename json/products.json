@@ -4,7 +4,8 @@
         "nome": "Calça Jeans Wide Leg",
         "preco": 120.00,
         "categoria": "calcas",
-        "descricao": "Um calça linda para uma festa"
+        "descricao": "Um calça linda para uma festa",
+        "imagem": "./images/calcaWideLeg.png"
     },
 
     {
@@ -12,7 +13,8 @@
         "nome": "Short Jeans Cintura Alta",
         "preco": 80.00,
         "categoria": "shorts",
-        "descricao": "Um short jeans que veste super bem"
+        "descricao": "Um short jeans que veste super bem",
+        "imagem": "./images/shortCinturaAlta.png"
     },
 
     {
@@ -20,7 +22,8 @@
         "nome": "Blusa Rosa",
         "preco": 50.00,
         "categoria": "blusas",
-        "descricao": "Uma blusa rosa com um decote pequeno"
+        "descricao": "Uma blusa rosa com um decote pequeno",
+        "imagem": "./images/blusaRosa.png"
     },
 
     {
@@ -28,7 +31,8 @@
         "nome": "Vestido de Alça Curto",
         "preco": 70.00,
         "categoria": "vestidos",
-        "descricao": "Um vestido curto de alça para passeio"
+        "descricao": "Um vestido curto de alça para passeio",
+        "imagem": "./images/vestidoCurto.png"
     },
 
     {
@@ -36,7 +40,8 @@
         "nome": "Vestido Longo",
         "preco": 80.00,
         "categoria": "vestidos",
-        "descricao": "Um lindo vestido longo para o dia a dia"
+        "descricao": "Um lindo vestido longo para o dia a dia",
+        "imagem": "./images/vestidoLongo.png"
     },
 
     {
@@ -44,7 +49,8 @@
         "nome": "Calça Moletom",
         "preco": 90.00,
         "categoria": "calcas",
-        "descricao": "Uma calça para se sentir confortável"
+        "descricao": "Uma calça para se sentir confortável",
+        "imagem": "./images/calcaMoletom.png"
     },
 
     {
@@ -52,7 +58,8 @@
         "nome": "Blusa de Academia",
         "preco": 40.00,
         "categoria": "blusas",
-        "descricao": "Uma blusa para treinar confortável"
+        "descricao": "Uma blusa para treinar confortável",
+        "imagem": "./images/blusaAcademia.png"
     },
 
     {
@@ -60,6 +67,7 @@
         "nome": "Short de Academia",
         "preco": 60.00,
         "categoria": "shorts",
-        "descricao": "Um short para treinar confortável"
+        "descricao": "Um short para treinar confortável",
+        "imagem": "./images/shortAcademia.png"
     }
 ]
