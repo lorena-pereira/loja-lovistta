@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lovistta</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
-        <h1>Lovistta</h1>
-        <p>Escolha a roupa perfeita para o seu dia a dia!</p>
-    </header>  
+        <div class="header-topo">
+            <div class="header-titulo">
+                <h1>DevLore</h1>
+                <p>A roupa perfeita para o seu dia a dia!</p>
+            </div>
 
-    <div class="filtro-loja">
-        <input type="text" id="busca" placeholder="Buscar produto">
-    
-        <select id="filtro-categoria">
-            <option value="todas">Todas</option>
-            <option value="calcas">Calças</option>
-            <option value="shorts">Shorts</option>
-            <option value="blusas">Blusas</option>
-            <option value="vestidos">Vestidos</option>
-        </select>
-    </div>
-    <main id="vitrine-produtos"></main>
+            <nav class="navegacao">
+                <a href="#loja" id="link-loja" class="btn-nav ativo">Loja</a>
+                <a href="#como-fiz" id="link-como-fiz" class="btn-nav">Como Fiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="secao-loja">
+        <div class="filtro-loja">
+            <input type="text" id="busca" placeholder="Buscar produto">
+
+            <select id="filtro-categoria">
+                <option value="todas">Todas</option>
+                <option value="calcas">Calças</option>
+                <option value="shorts">Shorts</option>
+                <option value="blusas">Blusas</option>
+                <option value="vestidos">Vestidos</option>
+            </select>
+        </div>
+
+        <div id="vitrine-produtos"></div>
+    </main>
+
+    <section id="secao-como-fiz" class="oculto">
+        <div class="conteudo-como-fiz">
+            <h2>Como fiz este projeto</h2>
+            <p>Confira abaixo a explicação sobre o desenvolvimento deste projeto.</p>
+
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="./video/apresentacao.mp4" type="video/mp4">
+                    Seu navegador não suporta a exibição de vídeos HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
 
     <script src="./javaScript/script.js"></script>
 </body>
+
 </html>

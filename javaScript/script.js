@@ -1,6 +1,10 @@
 const vitrine = document.getElementById('vitrine-produtos');
 const sistemaBusca = document.getElementById('busca');
 const filtroCategoria = document.getElementById('filtro-categoria');
+const linkLoja = document.getElementById('link-loja');
+const linkComoFiz = document.getElementById('link-como-fiz');
+const secaoLoja = document.getElementById('secao-loja');
+const secaoComoFiz = document.getElementById('secao-como-fiz');
 
 let produtosCatalogo = []; 
 let carrinhoDeCompras = [];
@@ -66,5 +70,24 @@ function adicionarAoCarrinho(idProduto) {
         alert(`Produto adicionado ao carrinho: ${produtoEscolhido.nome}`);
     }
 }
+
+linkComoFiz.addEventListener('click', (evento) => {
+    evento.preventDefault();
+    secaoLoja.classList.add('oculto');
+    secaoComoFiz.classList.remove('oculto');
+
+    linkLoja.classList.remove('ativo');
+    linkComoFiz.classList.add('ativo');
+});
+
+linkLoja.addEventListener('click', (evento) => {
+    evento.preventDefault();
+    secaoComoFiz.classList.add('oculto');
+    secaoLoja.classList.remove('oculto');
+
+    linkComoFiz.classList.remove('ativo');
+    linkLoja.classList.add('ativo');
+});
+
 
 carregarProdutos();
