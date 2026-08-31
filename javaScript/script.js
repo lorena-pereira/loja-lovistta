@@ -89,5 +89,4 @@ linkLoja.addEventListener('click', (evento) => {
     linkLoja.classList.add('ativo');
 });
 
-
 carregarProdutos();
