@@ -52,7 +52,7 @@ header h1 {
 
 .header-topo {
     display: flex;
-    justify-content: space-between; /* Título na esquerda, botão na direita */
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
